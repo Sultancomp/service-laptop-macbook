@@ -1,0 +1,191 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium";
+  text-align: justify;
+}
+
+.wrapper {
+  width: 850px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.logo a {
+  font-size: 70px;
+  font-weight: 550;
+  border: 50px;
+  margin: 10px;
+  font-family: Cambria;
+}
+
+span {
+  color: blue;
+  font-weight: 1000;
+}
+
+.judul .ul .li {
+  text-decoration: none;
+  position: static;
+  left: 50px;
+  display: inline-block;
+  font-size: xx-larges;
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+  line-height: 40px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: aqua;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: x-large;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+nav ul li {
+  float: right;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+nav ul li a {
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 20px 15px 25px;
+  height: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.kolom {
+  margin: 15px;
+}
+
+.kolom .deskripsi {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium";
+}
+
+h2 {
+  font-family: tahoma;
+  font-weight: 700;
+  font-size: 30px;
+  width: 90%;
+  line-height: 30px;
+  margin: 15px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  width: 100px;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h4 {
+  text-decoration: none;
+  background: black;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  width: 185px;
+  height: 30px;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 20px;
+  display: flex;
+  float: right;
+}
+
+button .a .h4 {
+  margin-top: auto;
+  margin-bottom: auto;
+  float: right;
+  height: 20px;
+}
+
+H5 {
+  margin: 22px;
+  background: blue;
+  color: yellow;
+  font-size: x-large;
+  border-radius: 20px;
+  padding: 7px;
+  float: right;
+  text-align: center;
+  justify-content: center;
+}
+
+h6 {
+  font-size: large;
+  color: crimson;
+  text-align: center;
+}
+
+p {
+  margin: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+.logo a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+nav .menu {
+  width: 100%;
+  margin: 20px;
+}
+
+nav .menu ul {
+  text-align: center;
+  line-height: 100px;
+}
+
+nav .menu ul li {
+  display: inline-block;
+}
+section {
+  display: flex;
+  color: blue;
+}
+section img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.copyright {
+  text-align: center;
+  margin: 0;
+}
