@@ -8,12 +8,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Franklin Gothic Medium";
+  font-family: sans-serif;
   text-align: justify;
 }
 
 .wrapper {
-  width: 750px;
+  width: 700px;
   margin: 20px;
   position: relative;
   text-align: center;
@@ -79,11 +79,9 @@ nav ul li a:hover {
 
 .kolom .deskripsi {
   font-weight: bold;
-  font-family: "Franklin Gothic Medium";
+  font-family: sans-serif;
 }
-
-h2 {
-  font-family: tahoma;
+s h2 {
   font-weight: 700;
   font-size: 30px;
   width: 90%;
@@ -94,8 +92,9 @@ h2 {
 
 h3 {
   text-align: center;
+  top: 50px;
   width: 100px;
-  font-size: 30px;
+  font-size: 22px;
   display: inline-block;
   margin-top: auto;
   margin-bottom: auto;
@@ -112,11 +111,12 @@ h4 {
   padding: 15px;
   margin: 5px;
   border-radius: 20px;
-  float: right;
   justify-content: center;
+  float: right;
 }
 
 H5 {
+  font-family: sans-serif;
   margin: 10px;
   background: blue;
   color: yellow;
@@ -134,7 +134,7 @@ h6 {
 }
 
 p {
-  margin: 10px;
+  margin: 35px;
   text-align: center;
 }
 
@@ -168,8 +168,8 @@ section {
   color: blue;
 }
 section img {
-  display: inline-block;
-  width: 100%;
+  display: flex;
+  width: 80%;
   height: auto;
 }
 
