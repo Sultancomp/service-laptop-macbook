@@ -163,10 +163,6 @@ nav .menu ul {
 nav .menu ul li {
   display: inline-block;
 }
-section {
-  display: flex;
-  color: blue;
-}
 section img {
   display: flex;
   width: 80%;
