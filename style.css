@@ -37,7 +37,6 @@ span {
   position: static;
   left: 50px;
   display: inline-block;
-  font-size: xx-larges;
 }
 
 nav {
@@ -53,7 +52,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  font-size: x-large;
+  font-size: bold xx-large;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -81,6 +80,7 @@ nav ul li a:hover {
   font-weight: bold;
   font-family: sans-serif;
 }
+
 s h2 {
   font-weight: 700;
   font-size: 30px;
@@ -117,7 +117,7 @@ h4 {
 
 H5 {
   font-family: sans-serif;
-  margin: 15px;
+  margin: 1px 5px;
   background: blue;
   color: yellow;
   font-size: x-large;
@@ -125,6 +125,7 @@ H5 {
   padding: 7px;
   text-align: center;
   border: 150px;
+  justify-content: center;
 }
 
 h6 {
@@ -163,8 +164,11 @@ nav .menu ul {
 nav .menu ul li {
   display: inline-block;
 }
-section img {
+section {
   display: flex;
+  color: blue;
+}
+section img {
   width: 80%;
   height: auto;
 }
