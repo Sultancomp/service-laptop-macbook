@@ -117,14 +117,14 @@ h4 {
 
 H5 {
   font-family: sans-serif;
-  margin: 1px 5px;
+  margin: 1px 2px;
   background: blue;
   color: yellow;
-  font-size: x-large;
+  font-size: large;
   border-radius: 20px;
-  padding: 7px;
+  padding: 5px;
   text-align: center;
-  border: 150px;
+  border: 130px;
   justify-content: center;
 }
 
