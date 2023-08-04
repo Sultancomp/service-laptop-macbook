@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-  width: 700px;
+  width: 600px;
   margin: 20px;
   position: relative;
   text-align: center;
@@ -23,7 +23,7 @@ body {
   font-size: 70px;
   font-weight: 550;
   border: 50px;
-  margin: 10px;
+  margin: 15px;
   font-family: Cambria;
 }
 
@@ -37,7 +37,7 @@ span {
   position: static;
   left: 50px;
   display: inline-block;
-  font-size: xx-large;
+  font-size: bold xx-large;
 }
 
 nav {
@@ -121,12 +121,12 @@ h4 {
 
 H5 {
   font-family: sans-serif;
-  margin: 1px 11px;
+  margin: 1px 6px;
   background: blue;
   color: yellow;
   font-size: large;
   border-radius: 20px;
-  padding: 5px;
+  padding: 4px;
   text-align: center;
   justify-content: center;
 }
