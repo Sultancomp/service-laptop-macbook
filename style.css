@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-  width: 600px;
+  width: 800px;
   margin: 20px;
   position: relative;
   text-align: center;
@@ -21,8 +21,7 @@ body {
 
 .logo a {
   font-size: 70px;
-  font-weight: 550;
-  border: 50px;
+  font-weight: 650;
   margin: 15px;
   font-family: Cambria;
 }
@@ -43,7 +42,7 @@ span {
 nav {
   width: 100%;
   display: inline-block;
-  line-height: 50px;
+  line-height: 55px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -125,10 +124,9 @@ H5 {
   color: yellow;
   font-size: large;
   border-radius: 20px;
-  padding: 3px;
+  padding: 4px;
   height: 17px;
   text-align: center;
-  justify-content: center;
 }
 
 h6 {
@@ -179,4 +177,10 @@ section img {
 .copyright {
   text-align: center;
   margin: 10px;
+}
+
+#IT ul h4 {
+  background-color: blue;
+  border: 5px lawngreen solid;
+  width: 165px;
 }
