@@ -35,14 +35,15 @@ span {
 .judul ul li {
   text-decoration: none;
   display: flex;
-  font-size: 13px;
-  border: 3px blue solid;
+  font-size: 9px;
+  border-bottom: 10px;
+  border: 2px blue solid;
 }
 
 nav {
   width: 100%;
   display: inline-block;
-  line-height: 40px;
+  line-height: 50px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -52,7 +53,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  font-size: bold xx-large;
+  font-size: x-large;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -66,7 +67,7 @@ nav ul li {
 nav ul li a {
   font-weight: bold;
   text-align: center;
-  padding: 1px 3px 3px 0px;
+  padding: 1px 3px 3px 3px;
   height: 25px;
   text-decoration: none;
   font-size: x-large;
@@ -81,9 +82,9 @@ nav ul li a:hover {
   font-family: sans-serif;
 }
 
-s h2 {
+h2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   width: 100%;
   height: 50px;
   margin: 20px;
@@ -103,7 +104,7 @@ h3 {
 h4 {
   text-decoration: none;
   background: black;
-  color: yellow;
+  color: white;
   font-size: large;
   text-align: center;
   width: 170px;
@@ -114,17 +115,18 @@ h4 {
   justify-content: center;
   float: right;
   cursor: pointer;
-  border: 3px blue solid;
+  border: 10px yellow solid;
 }
 
 H5 {
   font-family: sans-serif;
-  margin: 1px 6px;
+  margin: 3px 3px 3px 3px;
   background: blue;
   color: yellow;
   font-size: large;
   border-radius: 20px;
-  padding: 4px;
+  padding: 3px;
+  height: 17px;
   text-align: center;
   justify-content: center;
 }
@@ -136,8 +138,8 @@ h6 {
 }
 
 p {
-  margin: 34px;
-  text-align: center;
+  margin: 25px;
+  text-align: left;
 }
 
 @media screen and (max-width: 991.98px) {
