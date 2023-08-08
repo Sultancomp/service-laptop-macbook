@@ -13,8 +13,8 @@ body {
 }
 
 .wrapper {
-  width: 800px;
-  margin: 20px;
+  width: 750px;
+  margin: 15px;
   position: relative;
   text-align: center;
 }
@@ -179,8 +179,9 @@ section img {
   margin: 10px;
 }
 
-#IT ul h4 {
+#IT h4 {
   background-color: blue;
-  border: 5px lawngreen solid;
+  border: 5px yellow solid;
   width: 165px;
+  float: right;
 }
