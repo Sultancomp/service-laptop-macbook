@@ -74,7 +74,7 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
-  background-color: lawngreen;
+  background-color: aqua;
 }
 
 .kolom deskripsi {
@@ -136,7 +136,7 @@ h6 {
 }
 
 p {
-  margin: 25px;
+  margin: 25px 10px 15px 10px;
   text-align: left;
 }
 
@@ -182,7 +182,6 @@ section img {
 #IT h4 {
   background-color: blue;
   border: 5px yellow solid;
-  width: 165px;
-  margin: 9px;
+  width: 160px;
   float: right;
 }
