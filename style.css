@@ -118,13 +118,13 @@ h4 {
 
 H5 {
   font-family: sans-serif;
-  margin: 3px 10px 3px 5px;
+  margin: 3px 10px 3px 6px;
   background: blue;
   color: yellow;
   font-size: large;
   border-radius: 20px;
   padding: 5px;
-  height: 18px;
+  height: 19px;
   width: 110px;
   text-align: center;
 }
