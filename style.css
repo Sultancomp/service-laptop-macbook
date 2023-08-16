@@ -105,7 +105,7 @@ h4 {
   color: white;
   font-size: large;
   text-align: center;
-  width: 170px;
+  width: 169px;
   height: 37px;
   padding: 17px;
   margin: 6px;
@@ -113,7 +113,18 @@ h4 {
   justify-content: center;
   float: right;
   cursor: pointer;
-  border: 10px yellow solid;
+  border: 7px yellow solid;
+}
+#menu h4:hover {
+  background-color: blue;
+}
+
+#Software h4:hover {
+  background-color: blueviolet;
+}
+
+#Hardware h4:hover {
+  background-color: blueviolet;
 }
 
 H5 {
@@ -127,6 +138,9 @@ H5 {
   height: 19px;
   width: 110px;
   text-align: center;
+}
+#menu h5:hover {
+  background-color: black;
 }
 
 h6 {
@@ -184,4 +198,7 @@ section img {
   border: 5px yellow solid;
   width: 160px;
   float: right;
+}
+#IT h4:hover {
+  background-color: black;
 }
