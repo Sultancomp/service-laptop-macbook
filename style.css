@@ -41,8 +41,8 @@ span:hover {
 .judul ul li {
   text-decoration: none;
   display: flex;
-  font-size: 5px;
-  border: 1px blue solid;
+  height: 25px;
+  border: 25px;
 }
 
 nav {
@@ -75,11 +75,11 @@ nav ul li a {
   padding: 1px 3px 3px 3px;
   height: 25px;
   text-decoration: none;
-  font-size: x-large;
+  font-size: large;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  border-radius: 25px;
   background-color: aqua;
 }
 
@@ -112,7 +112,7 @@ h4 {
   color: white;
   font-size: large;
   text-align: center;
-  width: 169px;
+  width: 160px;
   height: 37px;
   padding: 17px;
   margin: 6px;
@@ -134,6 +134,10 @@ h4 {
   background-color: blueviolet;
 }
 
+.tes {
+  justify-content: center;
+  padding: 45px;
+}
 H5 {
   font-family: sans-serif;
   margin: 3px 10px 3px 6px;
@@ -141,9 +145,9 @@ H5 {
   color: yellow;
   font-size: large;
   border-radius: 18px;
-  padding: 3px;
-  height: 19px;
-  width: 110px;
+  padding: 5px;
+  height: 21px;
+  width: 100px;
   text-align: center;
 }
 #menu h5:hover {
@@ -151,14 +155,16 @@ H5 {
 }
 
 h6 {
-  font-size: large;
-  color: crimson;
+  font-size: x-large;
+  color: red;
   text-align: center;
 }
 
 p {
-  margin: 20px 10px 15px 10px;
+  margin: 10px 5px 10px 5px;
   text-align: left;
+  padding: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -208,4 +214,42 @@ section img {
 }
 #IT h4:hover {
   background-color: blueviolet;
+}
+
+.gadget {
+  display: flex;
+  border-color: aqua;
+  justify-content: center;
+}
+
+#com {
+  width: 200px;
+  padding: 30px;
+  height: 400px;
+}
+
+#com .Komputer h5 {
+  justify-content: center;
+  display: flex;
+  float: right;
+}
+
+#com h5:hover {
+  background-color: black;
+}
+
+#hp {
+  width: 200px;
+  padding: 30px;
+  height: 400px;
+}
+
+#hp .android h5 {
+  justify-content: center;
+  display: flex;
+  float: right;
+}
+
+#hp h5:hover {
+  background-color: black;
 }
