@@ -22,7 +22,7 @@ body {
 .logo a {
   font-size: 70px;
   font-weight: 650;
-  margin: 20px;
+  margin: 25px;
   font-family: tahoma;
 }
 
@@ -235,12 +235,12 @@ section img {
 .gadget {
   display: flex;
   border-color: aqua;
-  justify-content: center;
+  position: -webkit-sticky;
 }
 
 #com {
-  width: 200px;
-  padding: 30px;
+  width: 100px;
+  padding: 35px;
   height: 400px;
 }
 
@@ -255,8 +255,8 @@ section img {
 }
 
 #hp {
-  width: 200px;
-  padding: 30px;
+  width: 100px;
+  padding: 35px;
   height: 400px;
 }
 
