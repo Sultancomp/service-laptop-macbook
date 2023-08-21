@@ -136,7 +136,7 @@ h4 {
 
 .tes {
   justify-content: center;
-  padding: 45px;
+  padding: 35px;
 }
 H5 {
   font-family: sans-serif;
@@ -161,7 +161,7 @@ h6 {
 }
 
 p {
-  margin: 10px 5px 10px 5px;
+  margin: 10px 7px 10px 7px;
   text-align: left;
   padding: auto;
   height: auto;
@@ -208,9 +208,10 @@ section img {
 
 #IT h4 {
   background-color: blue;
-  border: 5px yellow solid;
+  border: 6px yellow solid;
   width: 160px;
   float: right;
+  padding: 17px;
 }
 #IT h4:hover {
   background-color: blueviolet;
