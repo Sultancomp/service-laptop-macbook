@@ -14,7 +14,7 @@ body {
 
 .wrapper {
   width: 900px;
-  margin: 15px;
+  margin: 10px;
   position: relative;
   text-align: center;
 }
@@ -22,7 +22,7 @@ body {
 .logo a {
   font-size: 70px;
   font-weight: 650;
-  margin: 15px;
+  margin: 20px;
   font-family: tahoma;
 }
 
@@ -41,14 +41,26 @@ span:hover {
 .judul ul li {
   text-decoration: none;
   display: flex;
-  height: 25px;
-  border: 25px;
+  height: 20px;
+  border: 5px blue solid;
+  margin: auto;
 }
 
+.judul ul h5 {
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  height: 30px;
+  border: 7px white solid;
+}
+
+.judul ul h5:hover {
+  background-color: blue;
+}
 nav {
   width: 100%;
   display: inline-block;
-  line-height: 45px;
+  line-height: 25px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -64,23 +76,25 @@ nav ul {
 }
 
 nav ul li {
+  float: right;
   justify-content: center;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 nav ul li a {
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
-  padding: 1px 3px 3px 3px;
-  height: 25px;
+  padding: 3px 3px 3px 3px;
+  height: 20px;
   text-decoration: none;
-  font-size: large;
+  font-size: medium;
+  font-weight: bold;
 }
 
 nav ul li a:hover {
-  border-radius: 25px;
-  background-color: aqua;
+  border-radius: 10px;
+  background-color: yellow;
 }
 
 .kolom deskripsi {
@@ -136,17 +150,18 @@ h4 {
 
 .tes {
   justify-content: center;
-  padding: 35px;
+  padding: 25px;
 }
+
 H5 {
   font-family: sans-serif;
-  margin: 3px 10px 3px 6px;
+  margin: 3px 10px 3px 0px;
   background: blue;
   color: yellow;
   font-size: large;
   border-radius: 18px;
   padding: 5px;
-  height: 21px;
+  height: 23px;
   width: 100px;
   text-align: center;
 }
