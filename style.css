@@ -20,7 +20,7 @@ body {
 }
 
 .logo a {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 650;
   margin: 30px;
   font-family: tahoma;
@@ -35,7 +35,7 @@ span {
   font-weight: 1000;
 }
 span:hover {
-  color: blueviolet;
+  color: red;
 }
 
 .judul ul li {
@@ -94,7 +94,7 @@ nav ul li a {
 
 nav ul li a:hover {
   border-radius: 10px;
-  background-color: yellow;
+  background-color: aqua;
 }
 
 .kolom deskripsi {
@@ -103,7 +103,7 @@ nav ul li a:hover {
 
 h2 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
   width: 100%;
   height: 50px;
   margin: 20px;
@@ -114,7 +114,7 @@ h2 {
 
 h3 {
   text-align: center;
-  font-size: 27px;
+  font-size: 22px;
   margin-top: auto;
   margin-bottom: auto;
   justify-content: center;
@@ -136,16 +136,23 @@ h4 {
   cursor: pointer;
   border: 7px yellow solid;
 }
+
+#menu h4 {
+  width: 130px;
+}
 #menu h4:hover {
   background-color: blue;
+  color: yellow;
 }
 
 #Software h4:hover {
   background-color: blueviolet;
+  color: yellow;
 }
 
 #Hardware h4:hover {
   background-color: blueviolet;
+  color: yellow;
 }
 
 .tes {
@@ -170,21 +177,25 @@ H5 {
 }
 
 h6 {
-  font-size: x-large;
+  font-size: larger;
   color: red;
   text-align: center;
 }
 
+h6:hover {
+  color: blue;
+}
+
 p {
-  margin: 10px 7px 10px 7px;
+  margin: 5px 5px 5px 5px;
   text-align: left;
-  padding: auto;
+  padding: 2px;
   height: auto;
 }
 
 @media screen and (max-width: 991.98px) {
   .wrapper {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -224,23 +235,23 @@ section img {
 #IT h4 {
   background-color: blue;
   border: 6px yellow solid;
-  width: 160px;
+  width: 140px;
   float: right;
   padding: 17px;
 }
 #IT h4:hover {
   background-color: blueviolet;
+  color: yellow;
 }
 
 .gadget {
   display: flex;
   border-color: aqua;
-  position: -webkit-sticky;
 }
 
 #com {
-  width: 90px;
-  padding: 25px;
+  width: 100px;
+  padding: 20px;
   height: 450px;
 }
 
@@ -255,8 +266,8 @@ section img {
 }
 
 #hp {
-  width: 90px;
-  padding: 25px;
+  width: 100px;
+  padding: 20px;
   height: 450px;
 }
 
@@ -268,4 +279,8 @@ section img {
 
 #hp h5:hover {
   background-color: black;
+}
+
+s img {
+  display: flex;
 }
