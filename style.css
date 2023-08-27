@@ -126,15 +126,15 @@ h4 {
   color: white;
   font-size: large;
   text-align: center;
-  width: 160px;
-  height: 37px;
+  width: 155px;
+  height: 32px;
   padding: 17px;
   margin: 6px;
   border-radius: 20px;
   justify-content: center;
   float: right;
   cursor: pointer;
-  border: 7px yellow solid;
+  border: 7px wheat solid;
 }
 
 #menu h4 {
@@ -157,17 +157,17 @@ h4 {
 
 .tes {
   justify-content: center;
-  padding: 25px;
+  padding: 22px;
 }
 
 H5 {
   font-family: sans-serif;
-  margin: 3px 10px 3px 0px;
+  margin: 3px 5px 3px 3px;
   background: blue;
   color: yellow;
   font-size: large;
   border-radius: 18px;
-  padding: 5px;
+  padding: 7px;
   height: 23px;
   width: 100px;
   text-align: center;
@@ -192,7 +192,9 @@ p {
   padding: 2px;
   height: auto;
 }
-
+p:hover {
+  background-color: blanchedalmond;
+}
 @media screen and (max-width: 991.98px) {
   .wrapper {
     width: 95%;
