@@ -287,3 +287,7 @@ section img {
 s img {
   display: flex;
 }
+
+i:hover {
+  background-color: yellow;
+}
