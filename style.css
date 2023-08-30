@@ -14,15 +14,15 @@ body {
 
 .wrapper {
   width: 900px;
-  margin: 10px;
+  margin: 5px;
   position: relative;
   text-align: center;
 }
 
 .logo a {
-  font-size: 50px;
-  font-weight: 650;
-  margin: 30px;
+  font-size: 40px;
+  font-weight: 550;
+  margin: 15px;
   font-family: tahoma;
 }
 
@@ -50,7 +50,7 @@ span:hover {
   text-align: center;
   justify-content: center;
   background-color: black;
-  height: 30px;
+  height: 20px;
   border: 7px white solid;
 }
 
@@ -172,6 +172,7 @@ H5 {
   width: 100px;
   text-align: center;
 }
+
 #menu h5:hover {
   background-color: black;
 }
@@ -252,7 +253,7 @@ section img {
 }
 
 #com {
-  width: 100px;
+  width: 90px;
   padding: 20px;
   height: 450px;
 }
@@ -268,7 +269,7 @@ section img {
 }
 
 #hp {
-  width: 100px;
+  width: 110px;
   padding: 20px;
   height: 450px;
 }
