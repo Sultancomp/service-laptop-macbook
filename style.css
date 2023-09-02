@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-  width: 900px;
+  width: 100%;
   margin: 5px;
   position: relative;
   text-align: center;
@@ -42,7 +42,7 @@ span:hover {
   text-decoration: none;
   display: flex;
   height: 20px;
-  border: 5px blue solid;
+  border: 3px black solid;
   margin: auto;
 }
 
@@ -198,7 +198,7 @@ p:hover {
 }
 @media screen and (max-width: 991.98px) {
   .wrapper {
-    width: 95%;
+    width: 90%;
   }
 }
 
