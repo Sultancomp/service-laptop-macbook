@@ -19,15 +19,17 @@ body {
   text-align: center;
 }
 
-.logo a {
+h1 {
   font-size: 40px;
   font-weight: 550;
   margin: 15px;
   font-family: tahoma;
+  text-align: left;
+  justify-content: left;
 }
 
-.logo a:hover {
-  color: blueviolet;
+h1:hover {
+  color: blue;
 }
 
 span {
@@ -38,20 +40,13 @@ span:hover {
   color: red;
 }
 
-.judul ul li {
+.judul ul li a {
   text-decoration: none;
   display: flex;
   height: 20px;
-  border: 3px black solid;
-  margin: auto;
-}
-
-.judul ul h5 {
-  text-align: center;
-  justify-content: center;
-  background-color: black;
-  height: 20px;
-  border: 7px white solid;
+  border: 5px black solid;
+  justify-content: right;
+  float: left;
 }
 
 .judul ul h5:hover {
@@ -59,12 +54,12 @@ span:hover {
 }
 nav {
   width: 100%;
-  display: inline-block;
-  line-height: 25px;
+  display: flex;
+  line-height: 20px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-color: yellow;
+  background-color: greenyellow;
   z-index: 1;
 }
 
@@ -76,7 +71,7 @@ nav ul {
 }
 
 nav ul li {
-  float: right;
+  float: left;
   justify-content: center;
   margin-top: auto;
   margin-bottom: auto;
@@ -86,15 +81,19 @@ nav ul li a {
   font-weight: bold;
   text-align: center;
   padding: 3px 3px 3px 3px;
-  height: 20px;
+  height: 23px;
   text-decoration: none;
   font-size: medium;
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  border-radius: 10px;
-  background-color: aqua;
+  border-radius: 12px;
+  background-color: yellow;
+}
+
+nav ul li a b:hover {
+  color: black !important;
 }
 
 .kolom deskripsi {
@@ -227,6 +226,7 @@ section {
 }
 section img {
   width: 100%;
+  justify-content: center;
   height: auto;
 }
 
@@ -254,7 +254,7 @@ section img {
 
 #com {
   width: 90px;
-  padding: 20px;
+  padding: 23px;
   height: 450px;
 }
 
@@ -270,7 +270,7 @@ section img {
 
 #hp {
   width: 110px;
-  padding: 20px;
+  padding: 23px;
   height: 450px;
 }
 
