@@ -21,7 +21,7 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 550;
   margin: 12px;
   font-family: tahoma;
   text-align: left;
@@ -37,7 +37,7 @@ span {
   font-weight: 1000;
 }
 span:hover {
-  color: red;
+  color: rebeccapurple;
 }
 
 .judul ul li a {
@@ -86,7 +86,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  border-radius: 12px;
+  border-radius: 15px;
   background-color: yellow;
 }
 
@@ -95,7 +95,7 @@ nav ul li a b {
   color: white;
   margin: 2px;
   padding: 2px;
-  height: 22px;
+  height: 23px;
 }
 
 .kolom .deskripsi {
@@ -115,7 +115,7 @@ h2 {
 
 h3 {
   text-align: center;
-  font-size: 17px;
+  font-size: 15px;
   margin-top: auto;
   margin-bottom: auto;
   justify-content: center;
@@ -127,7 +127,7 @@ h4 {
   color: white;
   font-size: medium;
   text-align: center;
-  width: 125px;
+  width: 120px;
   height: 30px;
   padding: 11px;
   margin: auto;
@@ -136,11 +136,11 @@ h4 {
   float: right;
   display: flex;
   cursor: pointer;
-  border: 7px wheat solid;
+  border: 5px wheat solid;
 }
 
 #menu .h4 {
-  width: 110px;
+  width: 100px;
 }
 #menu h4:hover {
   background-color: blue;
@@ -156,22 +156,23 @@ h4 {
   background-color: blueviolet;
   color: yellow;
 }
+
 H5 {
   display: flex;
   font-family: sans-serif;
-  margin: 5px 3px 3px 5px;
+  margin: 5px;
   background: blue;
   color: yellow;
   font-size: medium;
   border-radius: 13px;
-  padding: 4px;
+  padding: 5px;
   height: 22px;
-  width: 80px;
+  width: 75px;
   text-align: center;
   justify-content: center;
 }
 
-#menu h5:hover {
+h5:hover {
   background-color: black;
 }
 
@@ -186,9 +187,9 @@ h6:hover {
 }
 
 p {
-  margin: 3px;
+  margin: 5px;
   text-align: left;
-  padding: 3px;
+  padding: auto;
   height: auto;
 }
 p:hover {
@@ -196,7 +197,7 @@ p:hover {
 }
 @media screen and (max-width: 991.98px) {
   .wrapper {
-    width: 90%;
+    width: 92%;
   }
 }
 
@@ -208,7 +209,7 @@ p:hover {
 
 nav .menu {
   width: 100%;
-  margin: 30px;
+  margin: 25px;
 }
 
 nav .menu ul {
@@ -242,7 +243,7 @@ section img {
   padding: 15px;
 }
 #IT h4:hover {
-  background-color: blueviolet;
+  background-color: black;
   color: yellow;
 }
 
