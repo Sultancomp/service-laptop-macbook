@@ -59,7 +59,7 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-color: aqua;
+  background-color: chartreuse;
   z-index: 1;
 }
 
