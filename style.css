@@ -21,7 +21,7 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 550;
+  font-weight: 570;
   margin: 12px;
   font-family: tahoma;
   text-align: left;
@@ -37,7 +37,7 @@ span {
   font-weight: 1000;
 }
 span:hover {
-  color: rebeccapurple;
+  color: rgb(51, 153, 63);
 }
 
 .judul ul li a {
@@ -59,7 +59,7 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-color: chartreuse;
+  background-color: black;
   z-index: 1;
 }
 
@@ -187,7 +187,7 @@ h6:hover {
 }
 
 p {
-  margin: 5px;
+  margin: 7px;
   text-align: left;
   padding: auto;
   height: auto;
@@ -197,7 +197,7 @@ p:hover {
 }
 @media screen and (max-width: 991.98px) {
   .wrapper {
-    width: 92%;
+    width: 95%;
   }
 }
 
@@ -238,7 +238,7 @@ section img {
 #IT h4 {
   background-color: blue;
   border: 6px yellow solid;
-  width: 110px;
+  width: 100px;
   float: right;
   padding: 15px;
 }
