@@ -2,7 +2,7 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
-  color: black;
+  color: white;
 }
 
 body {
@@ -14,9 +14,13 @@ body {
 
 .wrapper {
   width: 100%;
-  margin: 3px;
+  margin: 2px;
   position: relative;
   text-align: center;
+}
+
+.wrapper button li a {
+  color: black !important;
 }
 
 h1 {
@@ -33,11 +37,11 @@ h1:hover {
 }
 
 span {
-  color: blue;
+  color: yellow;
   font-weight: 1000;
 }
 span:hover {
-  color: red;
+  color: white;
 }
 
 nav {
@@ -75,7 +79,7 @@ nav ul li a {
 
 nav ul li a:hover {
   border-radius: 15px;
-  background-color: yellow;
+  background-color: aqua;
 }
 
 /* Dropdown Button */
@@ -175,12 +179,8 @@ nav ul li a:hover {
   background-color: #3e8e41;
 }
 
-.kolom .deskripsi {
-  font-family: sans-serif;
-}
-
 h2 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 25px;
   width: 100%;
   height: 50px;
@@ -193,8 +193,6 @@ h2 {
 h3 {
   text-align: center;
   font-size: 15px;
-  margin-top: auto;
-  margin-bottom: auto;
   justify-content: center;
 }
 
@@ -255,7 +253,7 @@ h5:hover {
 
 h6 {
   font-size: medium;
-  color: red;
+  color: yellow;
   text-align: center;
 }
 
@@ -264,13 +262,13 @@ h6:hover {
 }
 
 p {
-  margin: 30px;
+  margin: 25px;
   text-align: left;
   padding: auto;
   height: auto;
 }
 p:hover {
-  background-color: blanchedalmond;
+  background-color: blue;
 }
 @media screen and (max-width: 991.98px) {
   .wrapper {
@@ -330,7 +328,7 @@ section img {
 }
 
 #com {
-  width: 100px;
+  width: 105px;
   padding: 23px;
   height: 450px;
 }
@@ -346,8 +344,8 @@ section img {
 }
 
 #hp {
-  width: 110px;
-  padding: 25px;
+  width: 105px;
+  padding: 23px;
   height: 450px;
 }
 
