@@ -37,7 +37,7 @@ span {
   font-weight: 1000;
 }
 span:hover {
-  color: rebeccapurple;
+  color: red;
 }
 
 nav {
@@ -83,7 +83,7 @@ nav ul li a:hover {
   background-color: #04aa6d;
   color: white;
   padding: 16px;
-  font-size: 14px;
+  font-size: 15px;
   border: none;
 }
 
@@ -98,15 +98,15 @@ nav ul li a:hover {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 120px;
-  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
+  min-width: 100px;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 12px;
+  padding: 15px 15px;
   text-decoration: none;
   display: block;
 }
@@ -131,7 +131,7 @@ nav ul li a:hover {
 .dropbtn {
   background-color: #04aa6d;
   color: white;
-  padding: 16px;
+  padding: 20px;
   font-size: 15px;
   border: none;
 }
@@ -147,8 +147,8 @@ nav ul li a:hover {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  min-width: 90px;
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -162,7 +162,7 @@ nav ul li a:hover {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: greenyellow;
 }
 
 /* Show the dropdown menu on hover */
@@ -202,13 +202,13 @@ h4 {
   text-decoration: none;
   background: black;
   color: white;
-  font-size: medium;
+  font-size: smaller;
   text-align: center;
-  width: 120px;
+  width: 110px;
   height: 30px;
   padding: 11px;
-  margin: auto;
-  border-radius: 22px;
+  margin: 5px;
+  border-radius: 30px;
   justify-content: center;
   float: right;
   display: flex;
@@ -264,7 +264,7 @@ h6:hover {
 }
 
 p {
-  margin: 7px;
+  margin: 30px;
   text-align: left;
   padding: auto;
   height: auto;
@@ -274,7 +274,7 @@ p:hover {
 }
 @media screen and (max-width: 991.98px) {
   .wrapper {
-    width: 95%;
+    width: 90%;
   }
 }
 
@@ -307,17 +307,17 @@ section img {
   height: auto;
 }
 
-.copyright {
-  text-align: center;
-  margin: 10px;
+#IT OL {
+  margin: 40px;
 }
 
 #IT h4 {
+  float: left;
   background-color: blue;
-  border: 6px yellow solid;
-  width: 100px;
-  float: right;
-  padding: 15px;
+  border: 5px yellow solid;
+  margin: 5px;
+  width: 170px;
+  padding: 9px;
 }
 #IT h4:hover {
   background-color: black;
