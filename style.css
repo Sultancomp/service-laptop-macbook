@@ -206,7 +206,7 @@ h4 {
   height: 30px;
   padding: 11px;
   margin: 5px;
-  border-radius: 30px;
+  border-radius: 25px;
   justify-content: center;
   float: right;
   display: flex;
@@ -253,6 +253,7 @@ h5:hover {
 
 h6 {
   font-size: medium;
+  margin: 10px;
   color: yellow;
   text-align: center;
 }
@@ -312,9 +313,10 @@ section img {
   float: left;
   background-color: blue;
   border: 5px yellow solid;
-  margin: 5px;
-  width: 165px;
-  padding: 9px;
+  border-radius: 25px;
+  margin: 10px;
+  width: 160px;
+  padding: 7px;
 }
 #IT h4:hover {
   background-color: black;
@@ -327,8 +329,8 @@ section img {
 }
 
 #com {
-  width: 105px;
-  padding: 25px;
+  width: 115px;
+  padding: 30px;
   height: 450px;
 }
 
@@ -343,8 +345,8 @@ section img {
 }
 
 #hp {
-  width: 105px;
-  padding: 25px;
+  width: 115px;
+  padding: 30px;
   height: 450px;
 }
 
