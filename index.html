@@ -13,16 +13,16 @@
               height: auto;
               background-color: black;
               animation-name: example;
-              animation-duration: 2s;
+              animation-duration: 1s;
             }
             
             @keyframes example {
-              from {background-color: orange;}
-              to {background-color: blue}
+              from {background-color: aqua;}
+              to {background-color: darkslateblue}
             }
             </style>
     </head>
-<body>
+    <body>
     <nav>
         <div class="dropdown">
             <button class="dropbtn"><b style="color: white;">Services</b></button>
@@ -33,6 +33,7 @@
             <a href="https://goo.gl/maps/xVvZXwejQRLWNT4GA"><h5>Lokasi</h5></a>
             <a href="#REK"><H5>Bayar</H5></a>
             <a href="#after"><h5>Garansi</h5></a>
+            <a href="#FAQ"><h5>Pertanyaan</h5></a>
             <a href="https://sultancomp.github.io/Tech.Smart/"><H5>Mitra</H5></a>
         </div>
         </div>
@@ -45,21 +46,25 @@
                 <button><li><a href="#Hardware"> Hardware</a></li></button>
                 <button><li><a href="#com"> Komputer</a></li></button>
                 <button><li><a href="#hp"> Smartphone</a></li></button>
-                <button onclick="alert(' 1.Baca SAP  2.Silakan Cek kerusakan melalui fitur software dan hardware atau smart-tech edukasi pada menu service  3.Bayar biaya tools Pengecekan atau DP   4.Menunggu hasil pengecekan teknisi  5.Baca SOP  6. menunggu konfirmasi costumer dilanjut atau tidak');">
+                <button onclick="alert(' 1.Baca SAP (Standar Analisis Prosedur)  2.Silakan Cek kerusakan melalui fitur software dan hardware atau smart-tech pada menu service  3.Bayar tools tester Pengecekan atau DP Alat  4.Menunggu hasil pengecekan teknisi  5.Baca SOP  6. menunggu konfirmasi costumer dilanjut atau tidak');">
                     <h5>Cara Service</h5></button>
                 <button><a href="http://wa.me/6287834014422"><h5>Contact</h5></a></button>
             </ul>
         </div>
     </nav>
-
+<!--try-->
     <div class="wrapper">
         <section id="Home"> 
             <img src="17.jpeg" alt="Repair & engineering Smartphone komputer" title="Logo Sultan Comp">
         </section>
-        <p class="deskripsi"><h3><span>Solusi</span> Tepat perbaikan 
-            Macbook dan Laptop kesayangan anda</h3>
-        </p>
+        <h3><span>Solusi</span> Tepat perbaikan 
+        Macbook dan Laptop kesayangan anda</h3>
     </div>
+
+    <section id="service"> 
+        <img src="cara services.jpg" alt="Repair & engineering Smartphone komputer" title="Logo Sultan Comp">
+    </section>
+<!--try-->
 <!-- software start -->
     <section id="Software" style="border: 10px solid; color: aqua; ">  
         <div class="row">
@@ -90,7 +95,7 @@
     
 <!--Hardware start-->
     <section id="Hardware"  style="border: 10px solid; color: aqua;">
-        <div class="container" >
+        <div class="container">
             <div class="row">
                 <h2><span><i class="bi bi-cpu-fill" style="color: cyan;"></i></i> Hardwares</span></h2></div>
                 <div class="col">
@@ -107,7 +112,7 @@
                     <a href="#16"><h4>Water damage
                     konsleting</h4></a>
                     <a href="#17"><h4> Hardbrick /
-                        Mati total</h4></a>
+                    Mati total</h4></a>
                 </div>
             </div>
         </div>
@@ -267,10 +272,11 @@
 
 <!--smarTech start-->
 
-    <section id="IT" style="border:20px solid;">
-        <div class="edukasi" > 
+    <section  style="border:20px solid;">
+        <div class="edukasi" id="IT"> 
             <div> 
-                <p><h3><b><span style="font-size: larger;"><i class="bi bi-motherboard-fill" style="color:cyan;"></i> Smart Tech</span> Edukasi</b></h3></p>
+                <h3><b><span style="font-size: larger;"><i class="bi bi-motherboard-fill" style="color:cyan;">
+                </i> Smart Tech</span> Edukasi</b></h3>
                 <h6><span>Mengenal </span>Jenis & penyebab Kerusakan <b>Smartphone dan komputer</b></h6>
           
                 <p><h4 id="23">Lemot Freezer</h4></p>
@@ -781,9 +787,9 @@
 
                 <p><b style="color: red;"> konsleting types</b>
                     <b> 
-                        <p><li>short sircuit</li>
-                        <p><li>short component</li>
-                        <p><li>short Ic</li>
+                            <p><li>short sircuit</li>
+                            <p><li>short component</li>
+                            <p><li>short Ic</li>
                     </b>
                 </p>    
             </div>
@@ -791,7 +797,7 @@
             <div>
                 <p><h4 id="17">Hardbrick Mati total</h4></p>   
                 <p><b>Beberapa faktor yang menyebabkan laptop, Desktop komputer, macbook <B style="color: red;">
-                     Gagal booting bahkan Mati total</B> diantaranya ;</B></p>       
+                     Gagal booting dan Mati total</B> diantaranya ;</B></p>       
                 <ol>
                     <B>
                         <p><li>Adaptor/PSU</li>
@@ -816,6 +822,41 @@
         </div>
     </section>
 <!--smarTech end-->
+<!--accordion-->
+<div class="acc-kontainer" >  
+    <h3><span>Pertanyaan seputar Perbaikan HP dan komputer</span></h3>    
+    <div id="FAQ">
+      <input type="radio" name="acc" id="acc1" checked>
+      <label for="acc1"> Berapa lama waktu Perbaikan ?</label>
+      <div class="acc-body">
+           waktu Service atau reparasi bergantung dari jenis masalah dan tingkat kesulitan 
+           serta ketersediaan sukucadang penggantinya
+      </div>
+     </div>
+    <div>
+       <input type="radio" name="acc" id="acc2">
+       <label for="acc2">bagaimana cara mengetahui Prosedur perbaikan ?</label>
+       <div class="acc-body">
+         Baca SAP dan SOP sera alert (pesan) pada menu cara service
+       </div>
+     </div>
+    <div>
+       <input type="radio" name="acc" id="acc3">
+       <label for="acc3">Berapa biaya service ?</label>
+       <div class="acc-body">
+        Pelajari Smart-tech edukasi serta Tahapan SAP dan SOP
+       </div>
+      </div>
+      <div>
+        <input type="radio" name="acc" id="acc4">
+        <label for="acc4">Apakah ada garansi Perbaikan atau pergantian ?</label>
+        <div class="acc-body">
+          Garansi ada sesuai kesepakatan dan ketentuan yang berlaku.
+          silakan pelajari menu garansi
+        </div>
+       </div>
+ </div>
+<!--accordion-->
     <nav style="justify-content: center;">
         <footer class="copyright">
             <div id="copyright">

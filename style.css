@@ -198,15 +198,15 @@ h3 {
 
 h4 {
   text-decoration: none;
-  background: black;
+  background: darkslateblue;
   color: white;
   font-size: smaller;
   text-align: center;
   width: 110px;
   height: 30px;
   padding: 11px;
-  margin: 5px;
-  border-radius: 25px;
+  margin: 10px;
+  border-radius: 17px;
   justify-content: center;
   float: right;
   display: flex;
@@ -223,12 +223,12 @@ h4 {
 }
 
 #Software h4:hover {
-  background-color: blueviolet;
+  background-color: blue;
   color: yellow;
 }
 
 #Hardware h4:hover {
-  background-color: blueviolet;
+  background-color: blue;
   color: yellow;
 }
 
@@ -240,7 +240,7 @@ H5 {
   color: yellow;
   font-size: smaller;
   border-radius: 10px;
-  padding: 4px;
+  padding: 5px;
   height: 17px;
   width: 70px;
   text-align: center;
@@ -268,10 +268,11 @@ p {
   padding: auto;
   height: auto;
 }
+
 p:hover {
   background-color: blue;
 }
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 992.98px) {
   .wrapper {
     width: 100%;
   }
@@ -306,16 +307,16 @@ section img {
 }
 
 #IT OL {
-  margin: 30px;
+  margin: 35px;
 }
 
 #IT h4 {
   float: left;
   background-color: blue;
   border: 5px yellow solid;
-  border-radius: 25px;
-  margin: 10px;
-  width: 160px;
+  border-radius: 20px;
+  margin: 3px;
+  width: 155px;
   padding: 7px;
 }
 #IT h4:hover {
@@ -366,4 +367,64 @@ s img {
 
 i:hover {
   background-color: yellow;
+}
+
+/*accordion*/
+.acc-kontainer {
+  width: 100%;
+  margin: auto;
+}
+.acc-kontainer .acc-body {
+  width: 98%;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  height: 0;
+  color: rgba(0, 0, 0, 0);
+  background-color: cornsilk;
+  line-height: 28px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.acc-kontainer label {
+  cursor: pointer;
+  background-color: darkslateblue;
+  border-bottom: 3px solid cyan;
+  display: block;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.acc-kontainer input {
+  display: none;
+}
+
+.acc-kontainer label:before {
+  font-family: "FontAwesome";
+  content: "\f067";
+  font-weight: bolder;
+  float: right;
+}
+
+.acc-kontainer input:checked + label {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.acc-kontainer input:checked + label:before {
+  font-family: "FontAwesome";
+  content: "\f00d";
+  transition: 0.5s;
+}
+
+.acc-kontainer input:checked ~ .acc-body {
+  height: auto;
+  color: black;
+  font-size: 16px;
+  padding: 20px;
+  transition: 0.5s;
 }
