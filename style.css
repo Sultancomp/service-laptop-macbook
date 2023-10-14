@@ -198,7 +198,7 @@ h3 {
 
 h4 {
   text-decoration: none;
-  background: darkslateblue;
+  background: darkblue;
   color: white;
   font-size: smaller;
   text-align: center;
@@ -314,10 +314,10 @@ section img {
   float: left;
   background-color: blue;
   border: 5px yellow solid;
-  border-radius: 20px;
+  border-radius: 17px;
   margin: 3px;
-  width: 155px;
-  padding: 7px;
+  width: 130px;
+  padding: 8px;
 }
 #IT h4:hover {
   background-color: black;
@@ -389,7 +389,7 @@ i:hover {
 
 .acc-kontainer label {
   cursor: pointer;
-  background-color: darkslateblue;
+  background-color: darkblue;
   border-bottom: 3px solid cyan;
   display: block;
   padding: 15px;
