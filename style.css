@@ -65,16 +65,13 @@ nav ul {
 nav ul li {
   float: left;
   justify-content: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 5px auto;
 }
 
 nav ul li a {
-  font-weight: bold;
+  font-weight: smaller;
   text-align: center;
-  padding: 8px;
-  height: 22px;
-  font-size: smaller;
+  padding: 3px;
 }
 
 nav ul li a:hover {
@@ -200,11 +197,11 @@ h3 {
 
 h4 {
   text-decoration: none;
-  background: darkblue;
+  background-image: radial-gradient(blue, black);
   color: white;
   font-size: smaller;
   text-align: center;
-  width: 110px;
+  width: 100px;
   height: 30px;
   padding: 11px;
   margin: 10px;
@@ -237,9 +234,9 @@ h4 {
 H5 {
   display: flex;
   font-family: sans-serif;
-  margin: 3px;
+  margin-bottom: 5px;
   background: blue;
-  color: yellow;
+  color: white;
   font-size: smaller;
   border-radius: 13px;
   padding: 4px;
@@ -251,6 +248,7 @@ H5 {
 
 h5:hover {
   background-color: black;
+  color: yellow;
 }
 
 h6 {
@@ -269,6 +267,7 @@ p {
   text-align: left;
   padding: auto;
   height: auto;
+  font-size: smaller;
 }
 
 p:hover {
@@ -305,21 +304,24 @@ section {
 }
 section img {
   width: 100%;
-  justify-content: center;
+  display: flex;
 }
 
 #IT OL {
   margin: 35px;
-  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
+}
+#menu h4 {
+  background-image: radial-gradient(green, black);
 }
 
 #IT h4 {
   float: left;
   background-image: linear-gradient(black, green);
-  border: 5px yellow solid;
+
   border-radius: 17px;
   margin: 3px;
-  width: 110px;
+  width: 100px;
   padding: 8px;
 }
 #IT h4:hover {
