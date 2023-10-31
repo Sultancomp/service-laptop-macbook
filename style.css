@@ -21,6 +21,7 @@ body {
 
 .wrapper button li a {
   color: black !important;
+  box-shadow: #04aa6d;
 }
 
 h1 {
@@ -32,8 +33,8 @@ h1 {
   justify-content: left;
 }
 
-h1:hover {
-  color: blue;
+.h1:hover {
+  color: cyan !important;
 }
 
 span {
@@ -65,13 +66,13 @@ nav ul {
 nav ul li {
   float: left;
   justify-content: center;
-  margin: 5px auto;
+  margin: 3px auto;
 }
 
 nav ul li a {
-  font-weight: smaller;
+  font-weight: small;
   text-align: center;
-  padding: 3px;
+  padding: auto;
 }
 
 nav ul li a:hover {
@@ -234,13 +235,12 @@ h4 {
 H5 {
   display: flex;
   font-family: sans-serif;
-  margin-bottom: 5px;
-  background: blue;
+  background-image: radial-gradient(blue, black);
   color: white;
   font-size: smaller;
   border-radius: 13px;
-  padding: 4px;
-  height: 17px;
+  padding: 6px;
+  height: auto;
   width: 70px;
   text-align: center;
   justify-content: center;
