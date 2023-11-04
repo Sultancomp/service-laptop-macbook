@@ -39,7 +39,7 @@ h1 {
 
 span {
   color: yellow;
-  font-weight: 1000;
+  font-weight: 600;
 }
 span:hover {
   color: white;
@@ -77,6 +77,15 @@ nav ul li a {
 nav ul li a:hover {
   border-radius: 15px;
   background-color: aqua;
+}
+.coba {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.coba .tes {
+  min-height: 150px;
+  width: 100%;
 }
 
 /* Dropdown Button */
@@ -264,7 +273,7 @@ h6:hover {
 }
 
 p {
-  margin: 25px auto;
+  margin: 25px;
   text-align: left;
   padding: auto;
   height: auto;
@@ -274,21 +283,20 @@ p {
 p:hover {
   background-color: darkblue;
 }
-@media screen and (max-width: 991.98px) {
-  .wrapper {
+@media screen and (max-width: 800px) {
+  .coba {
     width: 100%;
   }
 }
-
-.logo a {
-  display: block;
-  width: 100%;
-  text-align: center;
+@media screen and (max-width: 450px) {
+  .tes {
+    width: 50%;
+  }
 }
 
 nav .menu {
   width: 100%;
-  margin: 20px;
+  margin: 10px;
 }
 
 nav .menu ul {
@@ -301,10 +309,9 @@ nav .menu ul li {
 }
 section {
   display: flex;
-  float: left;
   color: aqua;
 }
-section img {
+div img {
   width: 100%;
   display: flex;
   float: left;
@@ -372,6 +379,7 @@ section img {
 
 s img {
   display: flex;
+  float: left;
 }
 
 i:hover {
