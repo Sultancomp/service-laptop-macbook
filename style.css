@@ -50,7 +50,6 @@ nav {
   display: flex;
   line-height: 10px;
   position: sticky;
-  position: -webkit-sticky;
   top: 0;
   background-color: black;
   z-index: 1;
@@ -82,7 +81,7 @@ nav ul li a:hover {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04aa6d;
+  background-image: linear-gradient(green);
   color: white;
   padding: 16px;
   font-size: 17px;
