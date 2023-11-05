@@ -14,7 +14,6 @@ body {
 
 .wrapper {
   width: 100%;
-  margin-inline-end: auto;
   position: relative;
   text-align: center;
 }
@@ -198,8 +197,9 @@ h2 {
 }
 
 h3 {
+  padding: 5px;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   justify-content: center;
 }
 
@@ -272,10 +272,8 @@ h6:hover {
 }
 
 p {
-  margin: 25px;
+  margin: 30px;
   text-align: left;
-  padding: auto;
-  height: auto;
   font-size: small;
 }
 
@@ -317,7 +315,7 @@ div img {
 }
 
 #IT OL {
-  margin: 30px;
+  margin: 20px;
   font-family: system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
 }
 #menu h4 {
@@ -346,8 +344,8 @@ div img {
 
 #com {
   width: 115px;
-  padding: 30px;
-  height: 450px;
+  padding: 20px;
+  height: 50%;
 }
 
 #com .Komputer h5 {
@@ -362,8 +360,8 @@ div img {
 
 #hp {
   width: 115px;
-  padding: 30px;
-  height: 450px;
+  padding: 20px;
+  height: 50%;
 }
 
 #hp .android h5 {
@@ -376,11 +374,6 @@ div img {
   background-color: black;
 }
 
-s img {
-  display: flex;
-  float: left;
-}
-
 i:hover {
   background-color: yellow;
 }
@@ -388,12 +381,12 @@ i:hover {
 /*accordion*/
 .acc-kontainer {
   width: 100%;
-  margin: auto;
+  margin: none;
 }
 .acc-kontainer .acc-body {
   width: 98%;
   width: calc(100% - 20px);
-  margin: 0 auto;
+  margin: 0;
   height: 0;
   color: rgba(0, 0, 0, 0);
   background-color: cornsilk;
@@ -441,6 +434,6 @@ i:hover {
   height: auto;
   color: black;
   font-size: 12px;
-  padding: 15px;
+  padding: 5px;
   transition: 0.5s;
 }
