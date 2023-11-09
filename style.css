@@ -26,7 +26,7 @@ body {
 h1 {
   font-size: 30px;
   font-weight: 570;
-  margin: 10px;
+  margin: 7px;
   font-family: tahoma;
   text-align: left;
   justify-content: left;
@@ -45,7 +45,7 @@ span:hover {
 }
 
 nav {
-  width: 100%;
+  width: 100% auto;
   display: flex;
   line-height: 10px;
   position: sticky;
@@ -248,9 +248,8 @@ H5 {
   border: yellow 3px solid;
   border-radius: 13px;
   padding: 4px;
-  height: auto;
-  width: 70px;
-  margin: 5px;
+  width: 80px auto;
+  margin: 4px;
   text-align: center;
   justify-content: center;
 }
