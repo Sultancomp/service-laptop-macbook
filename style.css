@@ -395,7 +395,7 @@ i:hover {
 
 .acc-kontainer label {
   cursor: pointer;
-  background-image: linear-gradient(blue, black);
+  background: black;
   border: 3px solid aqua;
   font-size: small;
   display: block;
