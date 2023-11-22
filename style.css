@@ -26,7 +26,7 @@ body {
 h1 {
   font-size: 30px;
   font-weight: 570;
-  margin: 7px;
+  margin: 7px auto;
   font-family: tahoma;
   text-align: left;
   justify-content: left;
@@ -199,7 +199,7 @@ h2 {
 h3 {
   padding: 5px;
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   justify-content: center;
 }
 
@@ -240,7 +240,7 @@ h4 {
 }
 
 H5 {
-  display: flex;
+  display: flex auto;
   font-family: sans-serif;
   background-image: radial-gradient(blue, black);
   color: white;
@@ -271,7 +271,7 @@ h6:hover {
 }
 
 p {
-  margin: 25px;
+  margin: 30px;
   text-align: left;
   font-size: small;
 }
@@ -393,14 +393,14 @@ i:hover {
 
 .acc-kontainer label {
   cursor: pointer;
-  background: black;
+  background: #0101;
   border: 3px solid aqua;
   font-size: small;
   display: block;
   padding: 10px;
   width: 100%;
   color: #fff;
-  font-weight: 250;
+  font-weight: 450;
   box-sizing: border-box;
 }
 
