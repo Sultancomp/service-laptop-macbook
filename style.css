@@ -188,6 +188,7 @@ nav ul li a:hover {
 
 h2 {
   font-size: 17px;
+  font-weight: bolder;
   width: 100%;
   height: 50px;
   margin: 10px;
@@ -271,7 +272,7 @@ h6:hover {
 }
 
 p {
-  margin: 30px;
+  margin: 25px;
   text-align: left;
   font-size: small;
 }
@@ -304,7 +305,7 @@ nav .menu ul li {
   display: inline-flex;
 }
 section {
-  display: flex;
+  display: inline-flex;
   color: aqua;
 }
 div img {
